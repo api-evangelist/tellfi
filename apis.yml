@@ -1,4 +1,16 @@
 aid: tellfi
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tellfi.png
 name: TellFi
 description: TellFi is a company surfaced as a portfolio company of a16z and added to the API Evangelist
   network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,7 +23,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 apis: []
@@ -20,3 +32,15 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-status: defunct
+x-status-detail: 'The only substantive TellFi on record is a Y Combinator-backed
+  business phone system ("Google Voice for business", founded ~2011 by Jason Corwin
+  and Conor Lee), now permanently closed. The domain tellfi.com redirects (302) to
+  HugeDomains and is parked/for-sale. No live website, developer portal, docs, or
+  API surface exists to enrich. No newer a16z-backed TellFi with its own domain was
+  found.'
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
