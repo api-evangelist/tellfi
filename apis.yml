@@ -34,9 +34,10 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 tags:
 - Company
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -44,12 +45,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 x-status: defunct
-x-status-detail: 'The only substantive TellFi on record is a Y Combinator-backed
-  business phone system ("Google Voice for business", founded ~2011 by Jason Corwin
-  and Conor Lee), now permanently closed. The domain tellfi.com redirects (302) to
-  HugeDomains and is parked/for-sale. No live website, developer portal, docs, or
-  API surface exists to enrich. No newer a16z-backed TellFi with its own domain was
-  found.'
+x-status-detail: The only substantive TellFi on record is a Y Combinator-backed business phone system
+  ("Google Voice for business", founded ~2011 by Jason Corwin and Conor Lee), now permanently closed.
+  The domain tellfi.com redirects (302) to HugeDomains and is parked/for-sale. No live website, developer
+  portal, docs, or API surface exists to enrich. No newer a16z-backed TellFi with its own domain was found.
 x-enrichment:
   date: '2026-07-21'
   status: nochange
